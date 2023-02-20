@@ -1,0 +1,42 @@
+.container {
+    font-family: cursive;
+}
+
+.buttons button {
+    border-color: white;
+    box-shadow: 0 0 2em white;
+    border-radius: 2em;
+    -webkit-border-radius: 2em; 
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    font-size: 3em;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    transition: transform 1.5s; /*zoom duration*/
+    -webkit-transition: transform 1.5s;
+    -moz-transition: transform 1.5s;
+    -ms-transition: transform 1.5s;
+    -o-transition: transform 1.5s;
+}
+.buttons button:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.counter{
+    margin: 4em;
+    font-size: 3em;
+}
+
+.increase{
+    padding: 2em;
+}
+.reset{
+    padding: 2em;
+    margin:0 5em ;
+}
+.decrease{
+    padding: 2em;
+}
